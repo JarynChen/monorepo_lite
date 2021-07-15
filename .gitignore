@@ -1,0 +1,7 @@
+node_modules
+.vscode
+.github
+.malagu
+yarn.lock
+.DS_Store
+compile.tsconfig.tsbuildinfo

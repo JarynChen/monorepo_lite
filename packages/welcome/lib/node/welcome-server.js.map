@@ -1,0 +1,1 @@
+{"version":3,"file":"welcome-server.js","sourceRoot":"","sources":["../../src/node/welcome-server.ts"],"names":[],"mappings":";;;;;;;;;AAAA,iEAA2D;AAC3D,qCAAkC;AAGlC,IAAa,iBAAiB,GAA9B,MAAa,iBAAiB;IAC5B,GAAG;QACD,OAAO,OAAO,CAAC,OAAO,CAAC,mBAAmB,CAAC,CAAC;IAC9C,CAAC;CACF,CAAA;AAJY,iBAAiB;IAD7B,SAAG,CAAC,gCAAa,CAAC;GACN,iBAAiB,CAI7B;AAJY,8CAAiB"}

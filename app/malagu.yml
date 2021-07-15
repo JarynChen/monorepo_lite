@@ -1,0 +1,6 @@
+targets:
+  - backend
+backend:
+  malagu:
+    server:
+      path: /

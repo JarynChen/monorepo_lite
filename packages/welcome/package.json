@@ -1,0 +1,28 @@
+{
+  "name": "@app/welcome",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "lib/common/welcome-protocol.js",
+  "typings": "lib/common/welcome-protocol.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@malagu/core": "^1.27.5",
+    "@malagu/rpc": "^1.27.5",
+    "@malagu/fc-adapter": "^1.27.5"
+  },
+  "devDependencies": {
+    "@malagu/cli": "^1.27.5",
+    "@malagu/cli-service": "^1.27.5"
+  },
+  "scripts": {
+    "lint": "malaguext lint",
+    "build": "malaguext build",
+    "watch": "malaguext watch",
+    "compile": "rm ./compile.tsconfig.tsbuildinfo && rm -r lib && tsc -b compile.tsconfig.json",
+    "clean": "malaguext clean",
+    "test": "malaguext test"
+  }
+}

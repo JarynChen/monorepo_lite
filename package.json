@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "monorepo_lite",
+  "version": "0.0.0",
+  "engines": {
+    "yarn": "1.0.x || >=1.2.1",
+    "node": ">=8.9.3"
+  },
+  "resolution": {
+    "**/@types/node": "8.10.20"
+  },
+  "app": {
+    "rootComponent": "app"
+  },
+  "devDependencies": {
+    "lerna": "^2.2.0"
+  },
+  "scripts": {},
+  "workspaces": [
+    "packages/*",
+    "app"
+  ]
+}

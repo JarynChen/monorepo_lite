@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "keywords": [
+    "malagu-component"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@malagu/mvc": "^1.27.5",
+    "@malagu/rpc": "^1.27.5",
+    "@malagu/core": "^1.27.5",
+    "@app/welcome": "^0.0.1",
+    "@malagu/scf-adapter": "^1.27.5"
+  },
+  "devDependencies": {
+    "@malagu/cli": "^1.27.5",
+    "@malagu/cli-service": "^1.27.5"
+  },
+  "scripts": {
+    "clean": "rimraf lib dist .malagu",
+    "build": "malagu build",
+    "start": "malagu serve -p 3001",
+    "deploy": "malagu deploy -m test",
+    "deploy:test": "malagu deploy -m test",
+    "deploy:pre": "malagu deploy -m pre",
+    "deploy:prod": "malagu deploy -m prod"
+  }
+}
