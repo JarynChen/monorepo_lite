@@ -7,7 +7,7 @@ export class ApiController {
   @Autorpc("http://localhost:3000/api/Welcome")
   readonly welcomeServer: WelcomeServer;
   @Get()
-  async updatePosition(): Promise<any> {
+  async say(): Promise<any> {
     return await this.welcomeServer.say();
   }
 }
