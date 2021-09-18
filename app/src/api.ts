@@ -3,7 +3,7 @@ import { WelcomeServer } from "@app/welcome";
 import { Autorpc } from "@malagu/rpc";
 
 @Controller()
-export class PositionApiController {
+export class ApiController {
   @Autorpc("http://localhost:3000/api/Welcome")
   readonly welcomeServer: WelcomeServer;
   @Get()
